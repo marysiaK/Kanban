@@ -1,0 +1,35 @@
+body {
+	background-color: lighgrey;
+}
+button {
+	background-color: lightblue;
+}
+.board {
+	text-align: center;
+}
+.board h1 {
+	display: inline-block;
+}
+.column-container {
+	display: inline-block;
+	margin-top: 30px;
+}
+.create-column {
+	margin-left: 20px;
+}
+.column {
+	display: inline-block;
+	float: left;
+	width: 300px;
+	margin-right: 20px;
+	margin-left: 20px;
+	border-style: solid;
+	border-radius: 10%;	
+}
+.column > ul > li {
+	text-align: left;
+}
+.card-description {
+	display: inline-block;
+	margin-left: 20px;
+}
