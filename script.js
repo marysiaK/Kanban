@@ -93,13 +93,13 @@
     };
     
     function initSortable() {
-        $('.column-card-list').sortable({
-            connectWith: '.column-card-list',
+        $('.column-list').sortable({
+            connectWith: '.column-list',
             placeholder: 'card-placeholder'
         }).disableSelection();
         
-    };
-    
+    }
+   
     $('.create-column').click(function(){
         var name = prompt('Wpisz nazwę kolumny');
         var column = new Column(name);
